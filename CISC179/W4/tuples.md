@@ -27,7 +27,7 @@ print("5's count:", my_tuple.count(5))
 ```
 
 1d) 
-```
+```python
 my_tuple = (1,2,3,4,3,2,1,2,3,5,4,3,2,1)
 
 print("1's count:", my_tuple.count(1))
@@ -53,7 +53,7 @@ print("5's count:", my_tuple.count(5))
 
 2b)  
 ```python
-(1, [2, 3], 4)\
+(1, [2, 3], 4)
 ```
 
 ## 3. Memory Management
