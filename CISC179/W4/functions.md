@@ -64,6 +64,7 @@ changelist(list)
 print(list)
 ```
 The result would be [1, 2, 3, 100] because lista are mutable.
+
 1d. After funct 1 nothing would change, because its only getting changed in that function. But for funct 2 x would be 2 because of the global.
 
 ## 2
