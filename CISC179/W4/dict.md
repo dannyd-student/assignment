@@ -20,14 +20,10 @@ truck = {
 my_user_dict = {}
 
 continue_input = "Y"
-
 while continue_input == "Y" or continue_input == "y":
-    
     ssn = input("Enter SSN: ")
     name = input("Enter Name: ")
-    
     my_user_dict[ssn] = name
-    
     continue_input = input("Do you want to continue (Y/N): ")
 
 print("Final Dictionary:")
@@ -45,7 +41,6 @@ data = [
 my_dict = {}
 
 for item in data:
-    
     if len(item) != 2:
         print("Error: Invalid key-value pair: ", item)
         print("Each entry must contain exactly 2 elements (key, value).")
