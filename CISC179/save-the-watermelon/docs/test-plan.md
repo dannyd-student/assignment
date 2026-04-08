@@ -15,17 +15,27 @@
 
 ## Manual Testing
 
-- Ran game multiple times
-- Tested valid and invalid inputs
-- Verified slices decrease correctly
-- Verified win and lose conditions trigger properly
+### Manual Test 1 – Normal Gameplay
+- Started the game using `python -m src.game`
+- Entered valid single-letter guesses
+- Confirmed correct letters were revealed
+- Confirmed incorrect guesses reduced slices
 
-## Results
+### Manual Test 2 – Invalid Inputs
+- Entered a number (`1`)
+- Entered multiple letters (`ab`)
+- Entered a repeated guess
+- Confirmed all invalid inputs showed helpful messages and did not crash the game
 
-All core features work as expected.
-No crashes during normal gameplay.
+### Manual Test 3 – End Conditions
+- Played until all letters were guessed
+- Confirmed the win message appeared
+- Played until slices reached 0
+- Confirmed the lose message appeared
 
-## Known Issues
+## Unit Test Results
 
-- No graphical interface (terminal only)
-- Limited word list
+Ran the tests using:
+
+```bash
+python -m unittest
